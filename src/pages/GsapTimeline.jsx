@@ -32,11 +32,7 @@ const GsapTimeline = () => {
   }, []);
 
   function handleGsapTimeline() {
-    if (timeline.paused()) {
-      timeline.play();
-    } else {
-      timeline.pause();
-    }
+    timeline.paused() ? timeline.play() : timeline.pause();
   }
 
   return (
