@@ -2,7 +2,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const GsapStagger = () => {
-  // TODO: Implement the gsap.stagger() method
+  // TODO: Implement the gsap.stagger() method with object properties
   useGSAP(() => {
     gsap.to(".stagger-box", {
       stagger: 0.3,
